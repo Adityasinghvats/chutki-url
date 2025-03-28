@@ -1,3 +1,10 @@
+## Link to chota karne yaha aye 
+[Chutki-Url](https://chutki-url.vercel.app/)
+
+## Sample dekh le bhai
+![Screenshot 2025-03-18 213235](https://github.com/user-attachments/assets/7c7769ff-5c37-473b-9098-f5398abb3a21)
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
