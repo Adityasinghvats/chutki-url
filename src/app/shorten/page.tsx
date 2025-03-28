@@ -84,11 +84,21 @@ export default function Home() {
               href={shortUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 hover:underline break-all"
+              className="text-blue-500 hover:underline break-all mr-4"
             >
               {shortUrl}
             </a>
+            <button
+            onClick={() => {
+              window.navigator.clipboard.writeText(shortUrl)
+              alert('Copied to clipboard')
+            }}
+            className="transform rounded-xl bg-blue-600 px-2 py-1 font-medium text-white transition-all hover:bg-blue-700 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            >
+              Copy
+            </button>
           </div>
+          
         )}
          </div>
         </div>

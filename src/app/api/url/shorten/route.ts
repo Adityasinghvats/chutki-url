@@ -47,7 +47,7 @@ export async function POST(req: NextRequest) {
                 )
             }else{
                 const urlCode = shortid.generate();
-                const shortUrl = baseUrl + '/api/url/' + urlCode;
+                const shortUrl = baseUrl + '/api/' + urlCode;
                 console.log('Generated short URL:', shortUrl);  // Add this
                 const newUrl = new Url({
                     longUrl,
